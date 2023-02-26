@@ -6,6 +6,21 @@ As the edges are selected by user progressively
    The algorithms always results in VALID TOUR SELECTION
 
 #   Brief algorithm:
+```swift
+extension Collection where Element: Equatable {
+  
+  /// In a sorted collection, replaces the given index with a successor mapping to a unique element.
+  ///
+  /// - Parameter index: A valid index of the collection. `index` must be less than `endIndex`
+  func formUniqueIndex(after index: inout Index) {
+    var prev = index
+    repeat {
+      prev = index
+      formIndex(after: &index)
+    } while index < endIndex && self[prev] == self[index]
+  }
+}
+```
 
 ####################################################################
    Brief on algorithm:
