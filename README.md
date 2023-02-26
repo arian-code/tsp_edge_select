@@ -19,7 +19,7 @@ As the edges are selected by user progressively
 # How to use:
    1. Download the file "tsp_edge_select.py"
    2. Install python dependencies "pygame"
-   3  Run: python3 tsp_edge_select.py
+   3. Run: python3 tsp_edge_select.py
    
    === OR ===
    
