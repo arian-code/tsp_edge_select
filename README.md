@@ -1,4 +1,3 @@
-# tsp_edge_select
 A python based game for generating tour based on edge selection
 ======
 This code graphically verifies the algorithm to build TSP tour based on edge selection
