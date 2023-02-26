@@ -6,7 +6,9 @@ As the edges are selected by user progressively
    The algorithms always results in VALID TOUR SELECTION
 
 #   Brief on algorithm:
-1. START
+
+>
+>1. START
 2. Number of cities <- 'n' 
 3. All edges are available initially for selection
 4. while (selected edges < n) do:
