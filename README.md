@@ -37,4 +37,9 @@ As the edges are selected by user progressively
    1. Try on "https://codehs.com/sandbox/id/pygame-6RucFM"
    (to view screenshot)
    2. Make sure the output window is maximised and browser is in full creen mode (F11)
+# Screenshots   
+   ![This is an image](https://raw.githubusercontent.com/arian-code/tsp_edge_select/main/1-init_pic.png)
+   ![This is an image](https://raw.githubusercontent.com/arian-code/tsp_edge_select/main/2-build_tour.png)
    
+
+
