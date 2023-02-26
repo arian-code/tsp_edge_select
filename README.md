@@ -11,12 +11,12 @@ START
     Number of cities <- 'n' 
     All edges are available during initial selection
     WHILE (selected edges < n) do
-       Select one edge:
+       Select one of the non-BLOCKED edges:
           All edges in the row of selected edge are BLOCKED
           All edges in the column of selected edge are BLOCKED
-          Edges which can create SUB TOUR are BLOCKED - routine "sub_tour_check"
-          if (pending edges for selection == available edges):
-              Select all remaining edges
+          Edges which can create SUB TOUR are BLOCKED    #Routine "sub_tour_check"
+          if (pending edges to be selected == non-BLOCKED edges):
+              Select all remaining edges                 #No more options available
     END WHILE
 END
 ```
