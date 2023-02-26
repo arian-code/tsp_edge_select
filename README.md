@@ -6,16 +6,18 @@ As the edges are selected by user progressively
    The algorithms always results in VALID TOUR SELECTION
 
 #   Brief on algorithm:
-1. Number of cities <- 'n' 
-2. All edges are available initially for selection
-3. while (selected edges < n) do:
-   3A.   Select one edge:
-        	3AA.   All edges in the row of edge are blocked
-        	3AB.   All edges in the column of edge are blocked
-        	3AC.   Edges which can create SUB TOUR are blocked - routine "sub_tour_check"
-   3B.   if (pending edges for selection == available edges):
-         3BA.  Select remaining edges
-         end While
+1. START
+2. Number of cities <- 'n' 
+3. All edges are available initially for selection
+4. while (selected edges < n) do:
+5.    Select one edge:
+6.       All edges in the row of edge are blocked
+7.       All edges in the column of edge are blocked
+8.       Edges which can create SUB TOUR are blocked - routine "sub_tour_check"
+9.       if (pending edges for selection == available edges):
+10.       Select remaining edges
+11.       end While
+12. END
          
 # How to use:
    1. Download the file "tsp_edge_select.py"
