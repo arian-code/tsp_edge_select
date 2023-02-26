@@ -8,17 +8,17 @@ As the edges are selected by user progressively
 #   Brief algorithm:
 
 ####################################################################
-#   Brief on algorithm:
-#   	All edges are available initially for selection
-#   	If no of cities = n; then n edges are to be selected
-#   	On each selection of edge:
-#       	All edges in the row of edge are blocked
-#       	All edges in the column of edge are blocked
-#       	Edges which can create SUB TOUR are blocked - routine "sub_tour_check"
-#
-# NOTE: WHEN NO OF PENDING SELECTIONS + NO OF AVAILABLE OPTIONS
-#        	ALGORITHM AUTO SELECTS ALL REMAINING EDGES
-#########################################################################################
+   Brief on algorithm:
+   	All edges are available initially for selection
+   	If no of cities = n; then n edges are to be selected
+   	On each selection of edge:
+       	All edges in the row of edge are blocked
+       	All edges in the column of edge are blocked
+       	Edges which can create SUB TOUR are blocked - routine "sub_tour_check"
+
+ NOTE: WHEN NO OF PENDING SELECTIONS + NO OF AVAILABLE OPTIONS
+        	ALGORITHM AUTO SELECTS ALL REMAINING EDGES
+#####################################################################
 
 
  
