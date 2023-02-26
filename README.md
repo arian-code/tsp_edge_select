@@ -7,20 +7,6 @@ As the edges are selected by user progressively
 
 #   Brief on algorithm:
 
->
-> 1. START
-> 2. Number of cities <- 'n' 
-> 3. All edges are available initially for selection
-> 4. while (selected edges < n) do:
-> 5.    Select one edge:
-> 6.       All edges in the row of edge are blocked
-> 7.       All edges in the column of edge are blocked
-> 8.       Edges which can create SUB TOUR are blocked - routine "sub_tour_check"
-> 9.       if (pending edges for selection == available edges):
-> 10.       Select remaining edges
-> 11.       end While
-> 12. END
-> 
          
 # How to use:
    1. Download the file "tsp_edge_select.py"
