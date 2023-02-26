@@ -32,7 +32,7 @@ END
    2. Run: ./tsp_edge_select
    (Tested on ubuntu / linux only)
    
-   === OR (Simplest_
+   === OR (**Simplest**)
    1. Try on "https://codehs.com/sandbox/id/pygame-6RucFM"
    (to view screenshot)
    2. Make sure the output window is maximised and browser is in full creen mode (F11)
