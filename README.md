@@ -7,18 +7,18 @@ As the edges are selected by user progressively
 
 #   Brief algorithm:
 
-* START
--    Number of cities <- 'n' 
--    All edges are available initially for selection
--    WHILE (selected edges < n) do
--       Select one edge:
--          All edges in the row of selected edge are blocked
--          All edges in the column of selected edge are blocked
--          Edges which can create SUB TOUR are blocked - routine "sub_tour_check"
--             if (pending edges for selection == available edges):
--                Select all remaining edges
--    END WHILE
-* END
+####################################################################
+#   Brief on algorithm:
+#   	All edges are available initially for selection
+#   	If no of cities = n; then n edges are to be selected
+#   	On each selection of edge:
+#       	All edges in the row of edge are blocked
+#       	All edges in the column of edge are blocked
+#       	Edges which can create SUB TOUR are blocked - routine "sub_tour_check"
+#
+# NOTE: WHEN NO OF PENDING SELECTIONS + NO OF AVAILABLE OPTIONS
+#        	ALGORITHM AUTO SELECTS ALL REMAINING EDGES
+#########################################################################################
 
 
  
