@@ -6,6 +6,7 @@ As the edges are selected by user progressively
    The algorithms always results in VALID TOUR SELECTION
 
 #   Brief algorithm:
+'''
 START
     Number of cities <- 'n' 
     All edges are available initially for selection
@@ -18,8 +19,8 @@ START
                   Select all remaining edges
     end WHILE
 END
+'''
 
-====================================================== 
  
          
 # How to use:
