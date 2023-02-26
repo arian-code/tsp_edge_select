@@ -28,7 +28,7 @@ As the edges are selected by user progressively
    2. Run: ./tsp_edge_select
    (Tested on ubuntu / linux only)
    
-   === OR ===
-   Simplest
-   try on "https://codehs.com/sandbox/id/pygame-6RucFM"
+   === OR (Simplest_
+   1. try on "https://codehs.com/sandbox/id/pygame-6RucFM"
+   2. Make sure the output window is maximised and browser is in full creen mode (F11)
    
