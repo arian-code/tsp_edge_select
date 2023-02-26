@@ -6,10 +6,10 @@ As the edges are selected by user progressively
    The algorithms always results in VALID TOUR SELECTION
 
 #   Brief algorithm:
-1.  START:
+1.  START
 2.      Number of cities <- 'n' 
 3.      All edges are available initially for selection
-4.      WHILE (selected edges < n) do:
+4.      WHILE (selected edges < n) do
 5.          Select one edge:
 6.              All edges in the row of selected edge are blocked
 7.              All edges in the column of selected edge are blocked
@@ -18,6 +18,7 @@ As the edges are selected by user progressively
 10.             Select all remaining edges
 11.    end WHILE
 12. END
+ 
  
          
 # How to use:
